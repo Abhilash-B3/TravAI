@@ -1,0 +1,76 @@
+export const ROUTES = {
+  HOME: '/',
+  DASHBOARD: '/dashboard',
+  LOGIN: '/login',
+  SIGNUP: '/signup',
+  FORGOT_PASSWORD: '/forgot-password',
+  ONBOARDING: '/onboarding',
+  PROFILE: '/profile',
+  FRONT_DESK: '/front-desk',
+  GUESTS: '/guests',
+  HOUSEKEEPING: '/housekeeping',
+  MAINTENANCE: '/maintenance',
+  ANALYTICS: '/analytics',
+  NOTIFICATIONS: '/notifications',
+  ADMIN: '/admin',
+  HEALTH: '/health-status',
+  SECURITY: '/security',
+  DESIGN_SYSTEM: '/design-system',
+  UNAUTHORIZED: '/unauthorized',
+  NOT_FOUND: '/404',
+  
+  PMS: {
+    ROOT: '/pms',
+    PROPERTIES: '/pms/properties',
+    ROOMS: '/pms/rooms',
+    ROOM_TYPES: '/pms/room-types',
+    RATE_PLANS: '/pms/rate-plans',
+  },
+  RESERVATIONS: {
+    ROOT: '/reservations',
+    NEW: '/reservations/new',
+    DETAIL: (id) => `/reservations/${id}`,
+  },
+  INVENTORY: {
+    ROOT: '/inventory',
+    ALLOTMENTS: '/inventory/allotments',
+  },
+  REVENUE: {
+    ROOT: '/revenue',
+    PRICING: '/revenue/pricing',
+    OVERVIEW: '/revenue/overview',
+  },
+  DISTRIBUTION: {
+    ROOT: '/distribution',
+    CHANNELS: '/distribution/channels',
+  },
+  MARKETPLACE: {
+    ROOT: '/marketplace',
+    PRODUCTS: '/marketplace/products',
+    CHECKOUT: '/marketplace/checkout',
+  },
+  FINANCE: {
+    ROOT: '/finance',
+    FOLIOS: '/finance/folios',
+    INVOICES: '/finance/invoices',
+  },
+  CORPORATE: {
+    ROOT: '/corporate',
+    POLICIES: '/corporate/policies',
+    EXPENSES: '/corporate/expenses',
+  },
+  CONCIERGE: {
+    ROOT: '/concierge',
+    CHAT: '/concierge/chat',
+    TICKETS: '/concierge/tickets',
+  },
+  LOYALTY: {
+    ROOT: '/loyalty',
+    MEMBERS: '/loyalty/members',
+  },
+  GOVERNANCE: {
+    ROOT: '/governance',
+    AUDIT: '/governance/audit',
+    AI_LOGS: '/governance/ai-logs',
+  },
+};
